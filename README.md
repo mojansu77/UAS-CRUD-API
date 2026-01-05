@@ -2,7 +2,7 @@ Aplikasi Web Studio Booking Musik berbasis PHP Native dan MySQL yang dibuat seba
 
 Proyek ini dikembangkan sebagai bagian dari tugas UAS dengan fokus pada backend development, pengelolaan database relasional, serta pemahaman dasar arsitektur RESTful API.
 
-🚀 Fitur Utama
+Fitur Utama
 CRUD data reservasi studio
 REST API menggunakan metode HTTP:
 GET – mengambil data reservasi
@@ -14,7 +14,7 @@ Dashboard admin sederhana
 Validasi parameter dasar
 Relasi database menggunakan Foreign Key
 
-🛠️ Teknologi yang Digunakan
+Teknologi yang Digunakan
 PHP Native
 MySQL
 Apache (XAMPP)
@@ -22,13 +22,13 @@ REST API
 JSON
 Chrome API Tester / Postman
 
-🗄️ Struktur Database
+Struktur Database
 Database menggunakan MySQL dengan tabel utama:
 reservasi
 studio
 Tabel reservasi memiliki relasi ke tabel studio melalui kolom id_studio (Foreign Key).
 
-📡 Endpoint API
+Endpoint API
 Base URL:
 http://localhost/StudioBooking/API/api_reservasi.php
 
@@ -69,19 +69,18 @@ Body (raw JSON):
   "id_reservasi": 1
 }
 
-⚙️ Cara Menjalankan Proyek
+Cara Menjalankan Proyek
 Clone repository ini
 Pindahkan folder ke direktori htdocs
 Import database db_studio ke MySQL
 Jalankan Apache & MySQL melalui XAMPP
 Akses API menggunakan Postman atau Chrome API Tester
 
-📌 Catatan
+Catatan
 Proyek ini menggunakan PHP Native tanpa framework
 Validasi dan keamanan masih bersifat dasar
 Digunakan untuk keperluan pembelajaran dan tugas akademik
 
-👤 Author
-
+Author
 Mochamad Januar Sugiarto, Mochamad Fathur Rahman, Nugroho Riziq Darmawan Nata Saputra, M. Affandi, Bayu Riyanto
 Proyek UAS – CRUD & REST API
